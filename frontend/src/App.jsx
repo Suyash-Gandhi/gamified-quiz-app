@@ -22,7 +22,7 @@ export default function App() {
   const fetchQuizData = async () => {
     try {
       console.log("Fetching quiz data...");
-      const response = await fetch("https://gamified-quiz-app-backend.onrender.com");
+      const response = await fetch("https://gamified-quiz-app-backend.onrender.com/api");
       if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
       const data = await response.json();
