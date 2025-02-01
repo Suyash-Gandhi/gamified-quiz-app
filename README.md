@@ -24,7 +24,7 @@ A dynamic, interactive quiz application with gamification features like streak b
 ![Demo Video](images/demo-video.mp4)
 
         
-[Deno-https://gamified-quiz-app-frontend.onrender.com/](https://gamified-quiz-app-frontend.onrender.com/)
+[Live Link-https://gamified-quiz-app-frontend.onrender.com/](https://gamified-quiz-app-frontend.onrender.com/)
         
 ## 🧑🏻‍💻 Usage
 - Start the Quiz by clicking the "Start Quiz" button.
