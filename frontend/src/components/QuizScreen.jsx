@@ -6,11 +6,11 @@ export default function QuizScreen({ quizData, setScreen, setScore }) {
   const [points, setPoints] = useState(0);
   const [streak, setStreak] = useState(0);
   const [timeLeft, setTimeLeft] = useState(30);
-  const [isMuted, setIsMuted] = useState(false); // Mute/unmute speech
-  const [speechRate, setSpeechRate] = useState(1); // Default speech rate
-  const [speechPitch, setSpeechPitch] = useState(1); // Default speech pitch
-  const [voice, setVoice] = useState(null); // Selected voice
-  const [voices, setVoices] = useState([]); // Available voices
+  const [isMuted, setIsMuted] = useState(false); 
+  const [speechRate, setSpeechRate] = useState(1); 
+  const [speechPitch, setSpeechPitch] = useState(1); 
+  const [voice, setVoice] = useState(null); 
+  const [voices, setVoices] = useState([]); 
 
   useEffect(() => {
     const fetchVoices = () => {
@@ -90,10 +90,6 @@ export default function QuizScreen({ quizData, setScreen, setScore }) {
 
   return (
     <>
-       {/* Progress Bar */}
-       <div className="progress-bar">
-          <div style={{ width: `${((currentIndex + 1) / quizData.length) * 100}%` }}></div>
-        </div>
       <div className="screen quiz">
       <h2>Time Left: {timeLeft}s</h2>
        
